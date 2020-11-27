@@ -1,0 +1,18 @@
+.contador{
+  color: #801515;
+  width: 150px;
+  height: 100px;
+  content: center;
+  background-image: linear-gradient( #ffd1aa,#552700);
+  border-radius: 10px;
+  margin: 20px;
+        
+}
+.numbers{
+    text-align: center;
+    font-size: 50px;
+}
+.letters{
+    margin-bottom: 5%;
+    color:#804515;
+}
