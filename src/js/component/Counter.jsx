@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import propType from "prop-types";
+import PropTypes from "prop-types";
 
 function Counter(props) {
 	const [number, setNumer] = useState(0);
@@ -18,7 +18,7 @@ function Counter(props) {
 		</div>
 	);
 }
-Counter.propType = {
-	call: propType.number
+Counter.propTypes = {
+	call: PropTypes.number
 };
 export default Counter;
